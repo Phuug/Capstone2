@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(95, 52, 180);
+}
+
+.hero-background{
+    background-image: url(./IMG_0028.PNG);
+}
+
+h1{
+    font-family: cursive;
+    color: rgb(95, 52, 180);
+}
+
+.lead{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.hero-background p{
+    color: rgb(95, 52, 180);
+}
+
+.hero-background img{
+    height: 200px;
+    border-radius: 50%;
+}
+
+.education{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+#projects h2{
+    color: white;
+    padding: 10px;
+}
+
+.btn-group{
+    position: absolute;
+    bottom: 10px;
+}
